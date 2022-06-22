@@ -1,6 +1,6 @@
-document.querySelectorAll('.card').forEach(item => {
+document.querySelectorAll('.button').forEach(item => {
     item.addEventListener("click", (e) => {
-        const sound = e.target.querySelector("audio");
+        const sound = e.target.nextElementSibling;
         sound.play();
     });
   });

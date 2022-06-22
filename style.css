@@ -15,11 +15,16 @@ body {
     width: 80%;
     justify-content: space-evenly;
 }
-
+/* 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+} */
+
+button {
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
 }
